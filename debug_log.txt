@@ -1,0 +1,59 @@
+Incoming POST Data:
+Array
+(
+    [quantity] => 1
+    [product_id] => 8
+    [add_to_cart] => 
+)
+Incoming POST Data:
+Array
+(
+    [quantity] => 1
+    [product_id] => 8
+    [add_to_cart] => 
+)
+Action: add
+Updated Cart:
+Array
+(
+    [8] => 1
+)
+Response:
+Array
+(
+    [success] => 1
+    [message] => Product added to cart
+    [cart_count] => 1
+)
+Incoming POST Data:
+Array
+(
+    [quantity] => 1
+    [product_id] => 10
+    [add_to_cart] => 
+)
+Action: add
+Updated Cart:
+Array
+(
+    [8] => 1
+    [10] => 1
+)
+Response:
+Array
+(
+    [success] => 1
+    [message] => Product added to cart
+    [cart_count] => 2
+)
+POST Data: Array
+(
+    [product_id] => 9
+    [add_to_cart] => 
+)
+POST Data: Array
+(
+)
+POST Data: Array
+(
+)
